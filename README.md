@@ -1,73 +1,115 @@
-# Welcome to your Lovable project
+# Shiksha Saathi – AI Chatbot for Student Support
 
-## Project info
+**Team:** SPARTANS  
+**Hackathon:** EduAIthon  
+**Problem Statement:** Lack of immediate academic support in remote areas hinders learning.
 
-**URL**: https://lovable.dev/projects/17b4540e-a0a3-4756-a740-22cffafe444a
+---
 
-## How can I edit this code?
+## 🧠 Overview
 
-There are several ways of editing your application.
+Shiksha Saathi is an AI-powered chatbot platform designed to provide instant academic support to students, especially in remote or underserved regions. It supports natural language queries across subjects like Math, Science, and English, and provides step-by-step, explainable answers.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/17b4540e-a0a3-4756-a740-22cffafe444a) and start prompting.
+## 🚀 Features
 
-Changes made via Lovable will be committed automatically to this repo.
+### 🤖 AI Chatbot
+- Powered by **Google Gemini API** for natural language understanding.
+- Supports domain-specific logic for **Math**, **Code**, and **Logical Reasoning**.
+- Step-by-step solutions with interactive options:
+  - `Show Hint`, `Next Step`, `Explain Again`
 
-**Use your preferred IDE**
+### 📚 RAG-Based Enhancement *(WIP)*
+- Combines textbook/Q&A content with LLM output.
+- Ensures curriculum-aligned and accurate responses.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 🌐 Multilingual & Accessibility
+- **Voice input/output** via Web Speech API.
+- Supports regional languages (e.g., Hindi, Tamil).
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 🖥️ Modern UI/UX
+- Built with **React + TypeScript**, **Tailwind CSS**, and **shadcn/ui**
+- Responsive design with:
+  - ✅ Login Page
+  - ✅ Dark/Light Mode Toggle
+  - ✅ Chat Interface with History
+  - ✅ Quiz & Practice Mode
+  - ✅ Voice Assistant Page
+  - ✅ Progress Tracking Page
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🛠️ Tech Stack
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+| Layer              | Technologies Used                           |
+|-------------------|----------------------------------------------|
+| Frontend          | React, TypeScript, Tailwind CSS, shadcn/ui   |
+| Backend           | Node.js, SymPy (Math), Gemini API, spaCy     |
+| AI/NLP            | Google Gemini, OpenAI (fallback), RAG        |
+| Accessibility     | Web Speech API, iNLTK                        |
+| Deployment        | GitHub                                       |
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 🧪 Implementation Snapshots
 
-**Edit a file directly in GitHub**
+- **Login Page**  
+  Enables user authentication and profile setup.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- **Chatbot Interface**  
+  Live chat with context-aware doubt solving.
 
-**Use GitHub Codespaces**
+- **Quiz Page**  
+  Practice and test modules for enhanced learning.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- **Voice Assistant**  
+  Speech-based interaction for accessibility.
 
-## What technologies are used for this project?
+- **Progress Tracker**  
+  Monitors user interactions and improvement over time.
 
-This project is built with:
+- **Chat History**  
+  Persistent and searchable query history.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 🔍 Project Scope
 
-Simply open [Lovable](https://lovable.dev/projects/17b4540e-a0a3-4756-a740-22cffafe444a) and click on Share -> Publish.
+- Multi-subject coverage: Math, Science, English (initial phase).
+- Explainable answers tailored to academic levels.
+- Supports regional languages and speech input/output.
+- Designed to scale to more subjects and exam types.
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## ✅ Results (Prototype Phase)
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+- Integrated Gemini for real-time academic query handling.
+- Chat + Quiz features deployed with working frontend/backend.
+- Achieved ~85% accuracy on sample questions.
+- Positive feedback on clarity, interactivity, and voice accessibility.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
+
+## 📸 Screenshots 
+
+- `login.jpg` – Login Screen
+- `chat.jpg` – AI Chat Interface
+- `quiz.jpg` – Quiz Mode
+- `voice.jpg` – Voice Assistant
+- `progress.jpg` – Progress Tracker
+- `history.jpg` – Chat History
+
+---
+
+## 👥 Authors
+
+- Amitesh Srinivas  
+
+---
+
+## 📝 License
+
+MIT License 
+
