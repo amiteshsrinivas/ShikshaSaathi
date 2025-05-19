@@ -92,14 +92,26 @@ Shiksha Saathi is an AI-powered chatbot platform designed to provide instant aca
 
 ---
 
-## 📸 Screenshots 
+## 📸 Screenshots
 
-- `login.jpg` – Login Screen
-- `chat.jpg` – AI Chat Interface
-- `quiz.jpg` – Quiz Mode
-- `voice.jpg` – Voice Assistant
-- `progress.jpg` – Progress Tracker
-- `history.jpg` – Chat History
+### 🔐 Login Screen
+![Login Page](login.jpg)
+
+### 💬 AI Chat Interface
+![Chat Interface](chat.jpg)
+
+### 🧠 Quiz Mode
+![Quizzes Page](quiz.jpg)
+
+### 🎙️ Voice Assistant
+![Voice Assistant](voice.jpg)
+
+### 📊 Progress Tracker
+![Progress Tracker](progress.jpg)
+
+### 📜 Chat History
+![Chat History](history.jpg)
+
 
 ---
 
