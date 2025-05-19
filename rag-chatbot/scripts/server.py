@@ -37,7 +37,7 @@ except Exception as e:
 conversation_context = {}
 
 # YouTube API configuration
-YOUTUBE_API_KEY = 'AIzaSyAESzsqFZicCstNNgZVVeYKcn2kU2qD20E'
+YOUTUBE_API_KEY = #add your API key
 
 @app.route('/systems', methods=['GET'])
 def get_systems():
