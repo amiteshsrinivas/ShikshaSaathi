@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShikshaSathi | Your Learning Companion</title>
+  <link rel="stylesheet" href="home.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script defer src="home.js"></script>
+</head>
+<body>
+  <div class="loader-wrapper">
+    <div class="loader"></div>
+  </div>
+
+  <header>
+    <div class="container nav">
+      <h1 class="logo"><i class="fas fa-graduation-cap"></i> ShikshaSathi</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#features" class="nav-link">Features</a></li>
+          <li><a href="#pricing" class="nav-link">Pricing</a></li>
+          <li><a id="loginBtn" class="nav-link" href="http://localhost:8080/">Login</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-menu">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content" data-aos="fade-up">
+        <h2 class="animate-text">Your Personal Doubt-Solving Companion</h2>
+        <p class="animate-text">Get Instant Solutions for Classes 3-10</p>
+        <div class="hero-buttons">
+          <a href="#loginSection" class="btn pulse">Get Started <i class="fas fa-arrow-right"></i></a>
+          <a href="#pricing" class="btn btn-outline">View Plans <i class="fas fa-tag"></i></a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-number">100000+</span>
+            <span class="stat-label">Students</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">24/7</span>
+            <span class="stat-label">Support</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">95%</span>
+            <span class="stat-label">Success Rate</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-animation">
+        <div class="floating-elements">
+          <i class="fas fa-question-circle"></i>
+          <i class="fas fa-lightbulb"></i>
+          <i class="fas fa-book"></i>
+          <i class="fas fa-brain"></i>
+          <i class="fas fa-graduation-cap"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">What is ShikshaSathi?</h2>
+      <div class="about-content">
+        <div class="about-text" data-aos="fade-right">
+          <p>
+            ShikshaSathi is your dedicated doubt-solving platform for classes 7-10. We provide instant solutions and detailed explanations for all subjects, helping students understand concepts better and excel in their studies.
+          </p>
+          <p>
+            Our platform combines the power of artificial intelligence with expert knowledge to provide accurate and comprehensive solutions. Whether you're stuck with a math problem, need help with science concepts, or want to improve your language skills, ShikshaSathi is here to help.
+          </p>
+          <div class="about-features">
+            <div class="about-feature">
+              <i class="fas fa-check-circle"></i>
+              <span>All Subjects Covered</span>
+            </div>
+            <div class="about-feature">
+              <i class="fas fa-check-circle"></i>
+              <span>Instant Solutions</span>
+            </div>
+            <div class="about-feature">
+              <i class="fas fa-check-circle"></i>
+              <span>Detailed Explanations</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-image" data-aos="fade-left">
+          <i class="fas fa-graduation-cap"></i>
+          <div class="about-image-decoration"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="features">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">Why Choose ShikshaSathi?</h2>
+      <div class="features-grid">
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+          <i class="fas fa-clock"></i>
+          <h3>24/7 Doubt Solving</h3>
+          <p>Get your doubts cleared anytime, anywhere. Our platform is always available to support your learning journey.</p>
+          <a href="#" class="feature-link">Learn More <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+          <i class="fas fa-brain"></i>
+          <h3>Smart Solutions</h3>
+          <p>Our AI-powered system provides accurate and detailed solutions with step-by-step explanations for better understanding.</p>
+          <a href="#" class="feature-link">Learn More <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+          <i class="fas fa-users"></i>
+          <h3>Expert Support</h3>
+          <p>Connect with experienced educators for complex problems and get detailed explanations for better understanding.</p>
+          <a href="#" class="feature-link">Learn More <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+          <i class="fas fa-chart-line"></i>
+          <h3>Progress Tracking</h3>
+          <p>Monitor your learning progress with detailed analytics and track your improvement over time.</p>
+          <a href="#" class="feature-link">Learn More <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="pricing">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">Choose Your Plan</h2>
+      <div class="pricing-grid">
+        <div class="pricing-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="pricing-header">
+            <h3>Basic</h3>
+            <div class="price">
+              <span class="amount">Free</span>
+            </div>
+          </div>
+          <div class="pricing-features">
+            <ul>
+              <li><i class="fas fa-check"></i> Classes 7-10</li>
+              <li><i class="fas fa-check"></i> All Subjects</li>
+              <li><i class="fas fa-check"></i> Basic Solutions</li>
+              <li><i class="fas fa-check"></i> Community Support</li>
+            </ul>
+          </div>
+          <a href="#loginSection" class="btn btn-outline">Get Started</a>
+        </div>
+        <div class="pricing-card featured" data-aos="fade-up" data-aos-delay="200">
+          <div class="pricing-header">
+            <h3>Pro</h3>
+            <div class="price">
+              <span class="amount">₹999</span>
+              <span class="period">/3 months</span>
+            </div>
+          </div>
+          <div class="pricing-features">
+            <ul>
+              <li><i class="fas fa-check"></i> All Basic Features</li>
+              <li><i class="fas fa-check"></i> Higher Classes Access</li>
+              <li><i class="fas fa-check"></i> Priority Support</li>
+              <li><i class="fas fa-check"></i> Detailed Solutions</li>
+              <li><i class="fas fa-check"></i> Faster Response Time</li>
+            </ul>
+          </div>
+          <a href="#loginSection" class="btn">Upgrade to Pro</a>
+        </div>
+      </div>
+      <p class="pricing-note">* Prices may vary based on traffic and maintenance costs</p>
+    </div>
+  </section>
+
+  <section id="loginSection" class="login">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">Start Your Learning Journey</h2>
+      <p data-aos="fade-up">Join thousands of students who are already learning with ShikshaSathi</p>
+      <div class="login-form" data-aos="fade-up">
+        <form id="loginForm">
+          <div class="form-group">
+            <input type="email" id="email" placeholder="Email" required>
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div class="form-group">
+            <input type="password" id="password" placeholder="Password" required>
+            <i class="fas fa-lock"></i>
+          </div>
+          <div class="form-options">
+            <label class="remember-me">
+              <input type="checkbox" id="remember">
+              <span>Remember me</span>
+            </label>
+            <a href="#" class="forgot-password">Forgot Password?</a>
+          </div>
+          <button type="submit" class="btn">Login <i class="fas fa-sign-in-alt"></i></button>
+          <div class="register-link">
+            Don't have an account? <a href="#">Register Now</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <div class="footer-logo">
+            <i class="fas fa-graduation-cap"></i> ShikshaSathi
+          </div>
+          <p>Empowering students with quality education and personalized learning experiences.</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div class="footer-column">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#courses">Courses</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Support</h4>
+            <ul>
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 ShikshaSathi. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+      once: true
+    });
+  </script>
+</body>
+</html>
